@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background-color: #F8F9FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-family: Arial;
+}
+
+.box {
+	padding: 50px;
+	background-color: white;
+	width: 400px;
+	box-shadow: 3px 4px 8px 0px #aaaaaa
+}
+
+
+input[type="text"], input[type="password"]{
+	width: 100%;
+	padding: 5px;
+	outline: none;
+}
+
+
+.inputLabel {
+	padding-top: 10px;
+	font-family: Arial;
+}
+
+.btn button {
+	background-color: #007AFF;
+	color: white;
+	border: none;
+	margin: 20px 0px;
+	padding: 15px;
+	width: 100%;
+}
+
+.rememberMe{
+	margin-top: 5px;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+	font-family: Arial, Helvetica, sans-serif;
+}
