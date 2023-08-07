@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #E6E7EE;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    height: 580px;
+    width: 450px;
+    padding: 30px;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    background-color: #E6E7EE;
+    border: 1px solid #D6DDE8;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.content-area {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h3 {
+    color: rgb(61, 61, 61);
+}
+
+.mail,
+.password,
+.confirm-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #D6DDE8;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+
+.confirm-password {
+    margin-bottom: 11px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+
+}
+
+
+
+p {
+    font-size: 12px;
+    margin: 5px 0px;
+    color: gray;
+}
+
+
+.term-cond-div {
+    background: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.term-cond-div input {
+    height: 12px;
+    width: 12px;
+    background: none;
+    box-shadow: none;
+}
+
+.term-cond-div p {
+    margin-left: 8px;
+}
+
+
+.sign-in {
+    height: 40px;
+    width: 100%;
+    background: none;
+    border: none;
+    border: 1px solid #D6DDE8;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.sign-in:hover {
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+
+.or {
+    padding: 15px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.facebook,
+.twitter,
+.github {
+    height: 40px;
+    width: 40px;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    border-radius: 5px;
+    margin: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.have-acc {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+
+span:hover {
+    text-align: center;
+    color: #1877F2;
+    text-decoration: underline;
+}
+
+
+.facebook:hover,
+.twitter:hover,
+.github:hover {
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
