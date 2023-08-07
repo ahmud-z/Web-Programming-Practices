@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1) no-repeat center center fixed;
+    background-size: contain;
+}
+
+
+
+.box {
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
+    min-height: 400px;
+    width: 320px;
+    border: 1px solid rgba(243, 243, 243, 0.7);
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+    padding: 20px;
+}
+
+.upper-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.upper-icons svg:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.profile img {
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+h4 {
+    padding-top: 10px;
+    color: white;
+}
+
+p {
+    font-size: 12px;
+    color: white;
+}
+
+.social-btns {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background: white;
+}
+
+
+.down-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 35px;
+    width: 120px;
+    margin-left: 8px;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(243, 243, 243, 0.5);
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    color: white;
+}
+
+.extra-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.extra-stats p {
+    font-size: 14px;
+}
