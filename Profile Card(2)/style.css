@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.profile-col {
+    height: 100%;
+    width: 180px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+h5 {
+    color: #347355;
+}
+
+.stats-col {
+    height: 100%;
+    width: 70px;
+    background: white;
+
+}
+
+.info p {
+    font-size: 10px;
+    color: #5a9278;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid #5a9278
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+button {
+    background: none;
+    border: none;
+    height: 25px;
+    width: 100px;
+    border: 2px solid #347355;
+    border-radius: 50px;
+    color: #347355;
+
+}
+
+.post,
+.likes {
+    background: #DEEFE7;
+    height: 82px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.followers {
+    background: #DEEFE7;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.post,
+.followers,
+.likes {
+    color: #347355;
+}
+
+button:hover {
+    background: #DEEFE7;
+    ;
+    color: black;
+    cursor: pointer;
+    border-color: #5a9278;
+
+}
+
+p {
+    font-size: 10px;
+}
