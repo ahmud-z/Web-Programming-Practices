@@ -41,6 +41,38 @@ img {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+
+p{
+    padding-top: 19px;
+
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media queries for responsiveness */
 @media (min-width: 600px) {
     .grid {
