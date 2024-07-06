@@ -3,91 +3,93 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-
-a {
-    color: blue;
     text-decoration: none;
-    display: block;
+    color: black;
 }
 
-img {
-    width: 100%;
+body {
+    background: #010B17;
+    padding: 0 180px;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header p {
+    font-size: 20px;
+    padding: 10px 0;
+    color: #F7BA2A;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Default to a single column for small screens */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-    padding: 20px;
 }
 
 .card {
-    background-color: rgb(241, 241, 241);
-    padding: 10px;
-    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
     overflow: hidden;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .card img {
-    border-radius: 4px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .card p {
-    padding-top: 5px;
-}
-
-.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-
-p{
-    padding-top: 19px;
-
-}
-
-a{
-    color: black;
-    font-weight: bold;
-    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media queries for responsiveness */
-@media (min-width: 600px) {
+@media screen and (max-width: 1450px){
     .grid {
-        grid-template-columns: repeat(2, 1fr); /* Two columns for screens wider than 600px */
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+    body{
+        padding: 0 20px;
+    }
+    
 }
 
-@media (min-width: 768px) {
+
+@media screen and (max-width: 1025px){
     .grid {
-        grid-template-columns: repeat(3, 1fr); /* Three columns for screens wider than 768px (tablets) */
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    body{
+        padding: 0 20px;
+    }
+    
 }
 
-@media (min-width: 1024px) {
+@media screen and (max-width: 430px){
     .grid {
-        grid-template-columns: repeat(4, 1fr); /* Four columns for screens wider than 1024px (laptops and desktops) */
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+    body{
+        padding: 0 10px;
+    }
+    
 }
