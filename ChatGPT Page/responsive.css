@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+   
+    .content{
+        padding: 0px 10px;
+    }
+   
+    .sideBar {
+        display: none;
+    }
+
+    .sample-prompt {
+        display: none;
+    }
+
+    .prompt-form {
+        width: 100%;
+    }
+
+    .test{
+        background: #000;
+    }
+
+    .default-alert-msg{
+       display: none;
+    }
+    .respons-msg{
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 992px) {}
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 1400px) {}

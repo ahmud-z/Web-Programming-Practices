@@ -3,10 +3,11 @@
 
 <head>
     <title>
-        ChatGPT
+        ChatGPT Fake
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="icon" href="favicon.ico">
     <link rel="favicon" href="">
 </head>
@@ -234,43 +235,46 @@
 
 
             </div>
-            <div class="def-promt">
-                <div class="prompt-A">
-                    <p>"Explain quantum computing in simple terms"&#8594</p>
-                </div>
-                <div class="prompt-A">
-                    <p>Remembers what user said earlier in the conversation</p>
-                </div>
-                <div class="prompt-A">
-                    <p>May occasionally generate incorrect information</p>
+
+            <div class="sample-prompt">
+                <div class="def-promt">
+                    <div class="prompt-A">
+                        <p>"Explain quantum computing in simple terms"&#8594</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>Remembers what user said earlier in the conversation</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>May occasionally generate incorrect information</p>
+                    </div>
+
                 </div>
 
-            </div>
+                <div class="def-promt">
+                    <div class="prompt-A">
+                        <p>"Got any creative ideas for a 10 year old's birthday?"&#8594</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>Allows user to provide follow-up corrections</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>May occasionally produce harmful instructions or biased content</p>
+                    </div>
 
-            <div class="def-promt">
-                <div class="prompt-A">
-                    <p>"Got any creative ideas for a 10 year old's birthday?"&#8594</p>
-                </div>
-                <div class="prompt-A">
-                    <p>Allows user to provide follow-up corrections</p>
-                </div>
-                <div class="prompt-A">
-                    <p>May occasionally produce harmful instructions or biased content</p>
-                </div>
-
-            </div>
-
-            <div class="def-promt">
-                <div class="prompt-A">
-                    <p>"How do I make an HTTP request in Javascript?"&#8594</p>
-                </div>
-                <div class="prompt-A">
-                    <p>Trained to decline inappropriate requests</p>
-                </div>
-                <div class="prompt-A">
-                    <p>Limited knowledge of world and events after 2021</p>
                 </div>
 
+                <div class="def-promt">
+                    <div class="prompt-A">
+                        <p>"How do I make an HTTP request in Javascript?"&#8594</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>Trained to decline inappropriate requests</p>
+                    </div>
+                    <div class="prompt-A">
+                        <p>Limited knowledge of world and events after 2021</p>
+                    </div>
+
+                </div>
             </div>
 
             <div class="final">
@@ -278,9 +282,13 @@
                     <input type="text" placeholder="Send a messages">
                 </div>
                 <div>
-                    <p>Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts.
+                    <p class="default-alert-msg">Free Research Preview. ChatGPT may produce inaccurate information about
+                        people, places, or facts.
                         <u>ChatGPT
                             July 20 Version</u>
+                    </p>
+                    <p class="respons-msg">
+                        ChatGPT can make mistakes. Consider checking important information.
                     </p>
                 </div>
             </div>
